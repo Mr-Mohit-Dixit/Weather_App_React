@@ -12,6 +12,9 @@ const App = () => {
         placeholder='Enter City Name' 
         />
 
+        <button>
+          Search
+        </button>
       </section>
 
       <section>
