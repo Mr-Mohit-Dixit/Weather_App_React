@@ -6,7 +6,12 @@ const App = () => {
 
       <h1> Weather App </h1>
       <section>
-        Search Section
+        {/* Search Section */}
+        <input
+        type='text'
+        placeholder='Enter City Name' 
+        />
+
       </section>
 
       <section>
