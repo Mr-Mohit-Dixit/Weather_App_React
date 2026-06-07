@@ -17,8 +17,22 @@ const App = () => {
         </button>
       </section>
 
-      <section>
-        Weather Section
+      <section  className='weather-section'>
+        <div className='weather-card'>
+          <h2>City, Country</h2>
+
+          <p>Day, DD MM YYYY | Time</p>
+
+          <h1>28°C</h1>
+
+          <p>Cloudy</p>
+
+          <div>
+            <span>Max: 31°C</span>
+            <span>Min: 24°C</span>
+          </div>
+
+        </div>
       </section>
 
     </div>
